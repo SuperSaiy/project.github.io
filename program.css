@@ -1,0 +1,51 @@
+html{
+    overflow-x: hidden;
+}
+
+.sidenav{
+    padding-bottom: 185px;
+}
+
+h2{
+    text-align: center;
+}
+
+ul li{
+    margin-bottom: 10px;
+}
+
+
+figure, figcaption 
+{
+    margin: 0 auto;
+    width: 715px;
+    padding: 0;
+}
+
+
+figcaption
+{
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    font-size: 150%;
+    padding-bottom: .25em;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid black;
+    margin-left: 40px;
+    margin-top: 0px;
+}
+th, td{
+    padding: .2em 1em .2em .5em;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid black;
+}
+
+h4{
+    text-align: center;
+    font-size: 14px;
+}

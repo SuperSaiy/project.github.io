@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="../index.css">
+    <link rel="stylesheet" href="../gpa.css">
+    <script src="../gpa.js"></script>
+</head>
+<body>
+    <header>
+        <h1>For Geeks</h1>
+    </header>
+    <div class="navbar">
+        <a href="../index.html">Home</a>
+        <a href="program.html">Computer Science Program</a>
+        <a href="TA.html">Teaching Assistant Application</a>
+        <a href="../pages/gpa.html">GPA Calculator</a>
+    </div>
+    
+    <div class="sidenav">
+        <a href=""><button>News</button></a>
+        <a href=""><button>Student Activities</button></a>
+        <a href=""><button>Scholarships</button></a>
+    </div>
+    <main>
+    <h2>GPA Calculator</h2>
+    <center>    
+    <form name="gpacalcform">
+        <table border=2 cellpadding="5" cellspacing="2">
+            <th></th>
+            <th>gradeLetter</th>
+            <th>credits</th>
+            <tr>
+                <td>Subject 1</td>
+                <td><input type=text size=5 id="gr1" align=top maxlength=5></td>
+                <td><input type=text size=5 id="cr1" align=top maxlength=5></td>
+    
+            <tr>
+                <td>Subject 2</td>
+                <td><input type=text size=5 id="gr2" align=top maxlength=5></td>
+                <td><input type=text size=5 id="cr2" align=top maxlength=5></td>
+            </tr>
+            <tr>
+                <td>Subject 3</td>
+                <td><input type=text size=5 id="gr3" align=top maxlength=5></td>
+                <td><input type=text size=5 id="cr3" align=top maxlength=5></td>
+            </tr>
+            <tr>
+                <td>Subject 4</td>
+                <td><input type=text size=5 id="gr4" align=top maxlength=5></td>
+                <td><input type=text size=5 id="cr4" align=top maxlength=5></td>
+            </tr>
+            <tr>
+                <td>Subject 5</td>
+                <td><input type=text size=5 id="gr5" align=top maxlength=5></td>
+                <td><input type=text size=5 id="cr5" align=top maxlength=5></td>
+            </tr>
+            
+            <tr align=center>
+                <td colspan=3><input type="button" value="calculate" name="calcbutton"onclick="calculateGPA()"></td>
+            </tr>
+        </table>
+        </form>
+</center>
+ </main>    
+</body> 
+     <footer>
+        <p>Contact Information:</p>
+        <p>Email: bnguyen2@aum.edu</p>
+        <p>(c) 2020 Ben Nguyen</p>
+    </footer>
+</html>
